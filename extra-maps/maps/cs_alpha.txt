@@ -1,0 +1,16 @@
+Alpha Complex - Hostage Rescue
+by [SSC]Prometheus (ssc_prometheus@gmx.net)
+ 
+Counter-Terrorists: An unknown terrorist
+group has taken hostages in the old
+alpha complex. Rescue the hostages. 
+Take out the Terrorists without 
+jeopardizing the hostages.
+
+Terrorists: Prevent Counter-Terrorist
+force from rescuing the hostages.
+
+Other Notes: There are 4 hostages in 
+the mission.
+
+(Press FIRE to continue)
