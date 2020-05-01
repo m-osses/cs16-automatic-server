@@ -41,7 +41,9 @@ ADD ./config/mapcycle.txt.custom ./cstrike/mapcycle.txt
 RUN mv ./cstrike/addons/amxmodx/configs/plugins.ini ./cstrike/addons/amxmodx/configs/plugins.ini.bkp
 ADD ./config/plugins.ini.custom ./cstrike/addons/amxmodx/configs/plugins.ini
 
-ADD extra-plugins/* ./cstrike/addons/amxmodx/plugins/
+ADD extra-plugins/*.amxx ./cstrike/addons/amxmodx/plugins/
+ADD extra-plugins/scripting/*.sma ./cstrike/addons/amxmodx/scripting/
+ADD extra-plugins/scripting/include/*.inc ./cstrike/addons/amxmodx/scripting/include/
 
   ## Default rcon password abc123
 
