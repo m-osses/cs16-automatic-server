@@ -28,10 +28,20 @@ ADD extra-maps/maps/ ./cstrike/maps/
 ADD extra-maps/gfx/ ./cstrike/gfx/
 ADD extra-maps/*.wad ./cstrike/
 
+## Add custom config
 RUN mv ./cstrike/server.cfg ./cstrike/server.cfg.bkp
 ADD ./config/server.cfg.custom cstrike/server.cfg
 
+## Add custom mapcycle list for map rotation
+RUN mv ./cstrike/mapcycle.txt ./cstrike/mapcycle.txt.bkp
+ADD ./config/mapcycle.txt.custom ./cstrike/mapcycle.txt
 
+## Add custom plugin configuration and extra plugins
+
+RUN mv ./cstrike/addons/amxmodx/configs/plugins.ini ./cstrike/addons/amxmodx/configs/plugins.ini.bkp
+ADD ./config/plugins.ini.custom ./cstrike/addons/amxmodx/configs/plugins.ini
+
+ADD extra-plugins/* ./cstrike/addons/amxmodx/plugins/
 
   ## Default rcon password abc123
 
