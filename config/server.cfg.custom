@@ -31,6 +31,7 @@ mp_startmoney 800
 round_money 100
 mp_allowspectators 1
 mp_freezetime 2
+mp_maxrounds 20
 sv_bounce 0
 sv_rollangle 0
 sv_rollspeed 200
