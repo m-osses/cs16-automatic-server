@@ -1,0 +1,12 @@
+Author:
+ *Nick "Sethen" Nugent
+
+Map Information:
+ *Env_cubemaps
+ *Grenade_spawners
+ *Overtime ("Guns Spawn")
+ *48 Spawnpoints ("Recommend 8 Max")
+
+Contact:
+Gamebanana.com   -   http://gamebanana.com/members/159688
+Website   -   http://nicknugent.webs.com/

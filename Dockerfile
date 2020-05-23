@@ -26,6 +26,7 @@ ADD config/dproto.cfg  dproto.cfg
 ##Add extra maps
 ADD extra-maps/maps/ ./cstrike/maps/
 ADD extra-maps/gfx/ ./cstrike/gfx/
+ADD extra-maps/models/ ./cstrike/models/
 ADD extra-maps/*.wad ./cstrike/
 
 ## Add custom config
