@@ -6,4 +6,4 @@ services:
     ports:
     - "27015:27015/udp"
     restart: always
-    entrypoint: ["./hlds_run","-game", "cstrike","-pingboost","3","-autoupdate","+port","27015","+maxplayers", "11" ,"+map", "fy_pool_day","-insecure"]
+    entrypoint: ["./hlds_run","-game", "cstrike","-pingboost","2","+port","27015","+maxplayers", "22" ,"+map", "fy_pool_day"]
