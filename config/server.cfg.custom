@@ -7,18 +7,25 @@ sv_stats 1
 sv_instancebaselines 1
 sv_unlag 1i
 
+sv_lan 0
+
+//Client max speed
+sv_maxspeed 320
+
+//disable autoaim
+sv_aim 0
+
 // Server rate
-
-
-cl_cmbackup 2
-rate 128000
-cl_rate 9999
-cl_cmdrate 101
-cl_updaterate 101
-sv_minupdaterate 101
-sv_minrate 101
-sv_maxrate 101
+sv_minupdaterate 30
+sv_minrate 5000
+sv_maxrate 25000
 sv_maxupdaterate 101
+sv_lan_rate 25000
+sys_ticrate 1000
+fps_max 1000
+decalfrequency 60
+host_framerate 0
+edgefriction 2
 
 // Improve fps
 ati_subdiv 0
@@ -58,14 +65,19 @@ cl_nopred 0
 ambient_level 0
 ambient_fade 0
 
-fps_max 100
-sv_allowdownload 1
-sv_allowupload 1
+sv_allowdownload 0
+sv_allowupload 0
 sv_voiceenable 1
 sv_alltalk 1
-sv_voicequality 1
-sv_cheats 1
+sv_voicequality 3
+
+//Disable cheats
+sv_cheats 0
+
+//Users can't pause the game
 sv_pausable 0
+pausable 0
+
 mp_tkpunish 1
 mp_autokick 1
 mp_spawnprotectiontime 10
