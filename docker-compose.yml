@@ -13,11 +13,11 @@ services:
       - "-pingboost"
       - "2"
       - "-heapsize"
-      - "300000"
+      - "800000"
       - "+port"
       - "27015"
       - "+maxplayers"
       - "22"
       - "+map"
-      - "aim_edge"
+      - "aim_ak-colt"
 
