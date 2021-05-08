@@ -6,4 +6,18 @@ services:
     ports:
     - "27015:27015/udp"
     restart: always
-    entrypoint: ["./hlds_run","-game", "cstrike","-pingboost","2","+port","27015","+maxplayers", "22" ,"+map", "aim_edge"]
+    entrypoint: 
+      - "./hlds_run"
+      - "-game"
+      - "cstrike"
+      - "-pingboost"
+      - "2"
+      - "-heapsize"
+      - "800000"
+      - "+port"
+      - "27015"
+      - "+maxplayers"
+      - "22"
+      - "+map"
+      - "aim_ak-colt"
+
