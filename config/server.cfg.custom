@@ -65,7 +65,7 @@ cl_nopred 0
 ambient_level 0
 ambient_fade 0
 
-sv_allowdownload 0
+sv_allowdownload 1
 sv_allowupload 0
 sv_voiceenable 1
 sv_alltalk 1
