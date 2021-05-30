@@ -1,15 +1,15 @@
 ////////////////////////////////////////////////////////////////
 // aim_edge resources file
 //
-// © Chapo 2004 - Infos @ http://www.17buddies.net
+// ï¿½ Chapo 2004 - Infos @ http://www.17buddies.net
 //
 // Can you play all of our maps?? Sure not!!
 //
 
 //////Wads
-\sierra\half-life\cstrike\de_aztec.wad
-\sierra\half-life\valve\halflife.wad
-\sierra\half-life\cstrike\cs_dust.wad
+de_aztec.wad
+halflife.wad
+cs_dust.wad
 
 //////Skies
 gfx/env/doom1up.tga

@@ -19,5 +19,5 @@ services:
       - "+maxplayers"
       - "22"
       - "+map"
-      - "aim_ak-colt"
+      - "aim_edge"
 
